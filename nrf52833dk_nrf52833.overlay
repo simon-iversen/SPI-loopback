@@ -1,0 +1,9 @@
+&spi3 {
+	compatible = "nordic,nrf-spim";
+	status = "okay";
+	label = "SPI_3";
+	sck-pin = <23>;
+	miso-pin = <22>;
+	mosi-pin = <21>;
+	clock-frequency = <4000000>;
+};
